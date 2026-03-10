@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kha-Lo Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="images/logo.png" alt="Kha-Lo Logo" class="logo">
+    <h1>Welcome to Kha-Lo Restaurant</h1>
+    <p>Delicious North Indian & Street Style Food</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn">View Menu</a>
+      <a href="https://wa.me/919304567809" class="btn">Order on WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Kha-Lo Restaurant & Biryani's Cafe is a popular food spot in Patna, known for its delicious biryani, chowmein, and North Indian dishes. Affordable, family-friendly, and loved by locals.</p>
+    <ul>
+      <li>⭐ 3.8 Rating (1000+ Reviews)</li>
+      <li>🍛 Famous for Biryani & Chowmein</li>
+      <li>👨‍👩‍👧 Family Friendly</li>
+      <li>🍽 Affordable Food (₹200-₹400)</li>
+    </ul>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="images/biryani.jpg" alt="Chicken Biryani">
+        <h3>Chicken Biryani</h3>
+        <p>₹200</p>
+      </div>
+      <div class="menu-card">
+        <img src="images/chowmein.jpg" alt="Chowmein">
+        <h3>Chowmein</h3>
+        <p>₹150</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/biryani.jpg" alt="Biryani">
+      <img src="images/chowmein.jpg" alt="Chowmein">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact & Location</h2>
+    <p>📍 Near Children Book Centre, Machina Toli More, Patna, Bihar 800004</p>
+    <p>📞 <a href="tel:09304567809">09304567809</a></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Kha-Lo Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
